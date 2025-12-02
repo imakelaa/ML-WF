@@ -5,12 +5,14 @@
 <br><br>
 </p>
 
-
-WFlib is a Pytorch-based open-source library for website fingerprinting attacks, intended for research purposes only.
+The following is based on the instructions provided by the developers of the WFLIB:
+"WFlib is a Pytorch-based open-source library for website fingerprinting attacks, intended for research purposes only.
 
 Website fingerprinting is a type of network attack in which an adversary attempts to deduce which website a user is visiting based on encrypted traffic patterns, even without directly seeing the content of the traffic.
 
-We provide a neat code base to evaluate 11 advanced DL-based WF attacks on multiple datasets. This library is derived from our ACM CCS 2024 paper. If you find this repo useful, please cite our paper.
+We provide a neat code base to evaluate 11 advanced DL-based WF attacks on multiple datasets. This library is derived from our ACM CCS 2024 paper. If you find this repo useful, please cite our paper."
+
+The main scope of our project was to use a few of the attacker models to experiment with defended datasets, more specifically tested out with the Mockingbird Defense. We hope for future work, we extend a defensive model library on top of the pre-exisisting attacker model library.
 
 ```bibtex
 @inproceedings{deng2024wflib,
@@ -107,7 +109,8 @@ bash scripts/DF.sh
 ## Contact
 If you have any questions or suggestions, feel free to contact:
 
-- [Xinhao Deng](https://xinhao-deng.github.io/) (dengxh23@mails.tsinghua.edu.cn)
+- [Pakhi Sinha](https://imakelaa.github.io/website/) (pasinha@ucsc.edu)
+- [Mahyar Vahabi](https://mvahabi.github.io/portfolio/) (mvahabi@ucsc.edu)
 
 ## Acknowledgements
 
